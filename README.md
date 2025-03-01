@@ -3,7 +3,7 @@ Here's a README.md file for your MemeVerse GitHub repository:
 ## 📸 Screenshots  
 
 ### 🔍 Meme Explorer  
-![Meme Explorer]("C:\Users\Rajat\Downloads\New folder\Screenshot 2025-03-01 171343.png"g)
+![MemeVerse Screenshot](https://github.com/Rajat09943/MemeVerse/blob/main/Screenshot%202025-03-01%20171343.png?raw=true)
 
 
 ### 🏠 Homepage  
