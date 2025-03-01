@@ -1,14 +1,6 @@
 "use client";
 import { useState } from "react";
 import { useDropzone } from "react-dropzone";
-import dynamic from "next/dynamic";
-import "react-quill/dist/quill.snow.css";
-
-// Dynamically import ReactQuill (fixes findDOMNode issue)
-const ReactQuill = dynamic(() => import("react-quill"), {
-  ssr: false,
-  loading: () => <p>Loading editor...</p>,
-});
 
 export default function UploadForm() {
   const [image, setImage] = useState(null);
@@ -55,10 +47,13 @@ export default function UploadForm() {
         )}
       </div>
 
-      {/* Caption Editor */}
-      <div className="mt-4 w-full bg-white text-black rounded">
-        <ReactQuill value={caption} onChange={setCaption} theme="snow" />
-      </div>
+      {/* Simple Caption Input (No react-quill) */}
+      <textarea
+        value={caption}
+        onChange={(e) => setCaption(e.target.value)}
+        className="mt-4 w-full p-2 bg-white text-black rounded"
+        placeholder="Write your meme caption here..."
+      ></textarea>
 
       {/* Upload Button */}
       <button onClick={handleUpload} className="mt-4 px-4 py-2 bg-green-600 rounded text-white hover:bg-green-700">

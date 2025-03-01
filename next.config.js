@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: false, // Prevents react-dom issues
-  experimental: {
-    appDir: true, // Ensures App Router compatibility
-  },
+  reactStrictMode: false, // Disable strict mode to avoid unnecessary warnings
 };
 
 module.exports = nextConfig;
