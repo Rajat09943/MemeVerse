@@ -7,7 +7,7 @@ Here's a README.md file for your MemeVerse GitHub repository:
 
 
 ### 🏠 Homepage  
-![MemeVerse Homepage](https://your-image-url.com/homepage.png)  
+![MemeVerse Screenshot](https://github.com/Rajat09943/MemeVerse/blob/main/Screenshot%202025-03-01%20181722.png?raw=true)
 
 
 ---
